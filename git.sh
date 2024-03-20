@@ -15,4 +15,4 @@ fi
 
 git add .
 git commit -m "$commitlog"  # commitlog 本身是带空格的，所以必须用双引号引起来
-git push
+git push origin HEAD:v4.19

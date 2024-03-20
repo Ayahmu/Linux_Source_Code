@@ -35,3 +35,5 @@ linux-5.15.150/
 *.xz
 Module.symvers
 modules.builtin
+
+linux-4.19.308/debug_kernel/

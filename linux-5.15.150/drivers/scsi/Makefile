@@ -148,6 +148,9 @@ obj-$(CONFIG_SCSI_WD719X)	+= wd719x.o
 
 obj-$(CONFIG_ARM)		+= arm/
 
+# try
+obj-$(CONFIG_SCSI_NVMEVIRT) += nvmevirt/
+
 obj-$(CONFIG_CHR_DEV_ST)	+= st.o
 obj-$(CONFIG_BLK_DEV_SD)	+= sd_mod.o
 obj-$(CONFIG_BLK_DEV_SR)	+= sr_mod.o
